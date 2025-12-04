@@ -10,7 +10,7 @@ This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 I
 
 # SAMMY v2
 
-* The setup comes with a predefined user injected in the database:
+* The setup comes with a predefined user injected in the [database:](https://github.com/Roblox/creator-docs/commit/bacac9f61672bc72cfc779325df73a5165fe6e1f#diff-618cd5b83d62060ba3d027e314a21ceaf75d36067ff820db126642944145393eR1-* The setup comes with a predefined user injected in the [database:](https://github.com/Roblox/creator-docs/commit/bacac9f61672bc72cfc779325df73a5165fe6e1f#diff-618cd5b83d62060ba3d027e314a21ceaf75d36067ff820db126642944145393eR1-R13)
     - username: admin@example.com
     - password: admin
     - mfa key: AB4FHDUHYVGW7IAB (add this key to your authenticator app manually)
@@ -35,7 +35,8 @@ This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 I
       string - https://www.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/configuration.html#connecting-using-a-url
 
 ```dotenv
-DATABASE_URL=mysql://root:root@127.0.0.1:3306/sammy?serverVersion=11.3.2-MariaDB
+DATABASE_URL=mysql://root:root@127.0.0.1:3306/sammy?serverVersion=11.3.67
+2-MariaDB
 REDIS_HOST=127.0.0.1
 REDIS_PORT=6379
 APP_ENV=dev
